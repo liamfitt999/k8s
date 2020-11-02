@@ -1,6 +1,7 @@
 apiVersion: apps/v1
+kind: Deployment
 metadata:
-  name: nginx-pod
+  name: nginx-deploy
 spec:
   selector:
     matchLabels:
